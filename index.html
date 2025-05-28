@@ -1,8 +1,6 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Cheat Sheet</title>
   </head>
   <body>
@@ -14,7 +12,7 @@
     <h5>Heading Five</h5>
     <h6>Heading Six</h6>
 
-    <!-- Paragraphs -->
+    <!-- Paragraph -->
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo nostrum id eum porro voluptas iure, <strong>asperiores consectetur ex eligendi</strong> reiciendis perspiciatis fugiat expedita, alias odio. Dolorum voluptatum eum dignissimos sint officiis nesciunt natus harum. Labore voluptatibus provident nisi nulla <em>dolore exercitationem</em>, nihil blanditiis et ratione eius minima quibusdam obcaecati, sunt consequatur eveniet voluptatum. Dicta ipsa quam molestias eaque expedita saepe!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Repudiandae tempore iure quam accusantium <a href="http://google.com" target="_blank">veniam porro qui</a> dicta esse. Pariatur, incidunt, ad blanditiis totam nihil itaque sit labore? Fuga suscipit ipsa a voluptatum dicta laudantium obcaecati, quam error voluptate tenetur est quo, numquam natus molestiae officia quae illo culpa odio amet eum dolores quis explicabo maxime veniam. Iste, aliquam odio vero.</p>
 
@@ -25,6 +23,7 @@
       <li>List Item 3</li>
       <li>List Item 4</li>
     </ul>
+
     <ol>
       <li>List Item 1</li>
       <li>List Item 2</li>
@@ -32,7 +31,7 @@
       <li>List Item 4</li>
     </ol>
 
-    <!-- Tables -->
+    <!-- Table -->
     <table>
       <thead>
         <tr>
@@ -65,30 +64,30 @@
     <br>
 
     <!-- Forms -->
-    <form action="process.php" method="post">
+    <form action="process.php" method="POST">
       <div>
-        <label for="firstName">First Name</label>
-        <input id="firstName" name="firstName" type="text" placeholder="Enter first name">
+        <label>First Name</label>
+        <input type="text" name="firstName" placeholder="Enter first name">
       </div>
       <br>
       <div>
-        <label for="lastName">Last Name</label>
-        <input id="lastName" name="lastName" type="text">
+        <label>Last Name</label>
+        <input type="text" name="lastName">
       </div>
       <br>
       <div>
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email">
+        <label>Email</label>
+        <input type="email" name="email">
       </div>
       <br>
       <div>
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
+        <label>Message</label>
+        <textarea name="message"></textarea>
       </div>
       <br>
       <div>
-        <label for="gender">Gender</label>
-        <select id="gender" name="gender">
+        <label>Gender</label>
+        <select name="gender">
           <option value="male">Male</option>
           <option value="female">Female</option>
           <option value="other">Other</option>
@@ -96,23 +95,25 @@
       </div>
       <br>
       <div>
-        <label for="age">Age</label>
-        <input id="age" name="age" type="number" value="30">
+        <label>Age</label>
+        <input type="number" name="age" value="30">
       </div>
       <br>
       <div>
-        <label for="birthday">Birthday</label>
-        <input id="birthday" name="birthday" type="date">
+        <label>Birthday:</label>
+        <input type="date" name="birthday">
       </div>
       <br>
-      <input name="submit" type="submit" value="Submit">
+      <input type="submit" name="submit" value="Submit">
     </form>
 
-    <!-- Buttons -->
+    <!-- Button -->
     <button>Click Me</button>
 
-    <!-- Images -->
-    <img src="" alt="">
+    <br>
+
+    <!-- Image -->
+    <img src="images/sample.jpg" alt="">
 
     <div style="margin-top:500px"></div>
   </body>
